@@ -3,10 +3,16 @@ h1 {
 }
 
 p {
-  color: white;
+  color: black;
 }
 
 body {
-  background-image: url('https://i2.wp.com/buzzfrag.com/wp-content/uploads/2018/03/hp.jpg');
+  display:flex;
+  flex-direction: column;justify-content: flex-end;
+
+  background-image: url('https://i.pinimg.com/originals/44/88/f3/4488f3ced45611810d2c1cfc9e8f528d.jpg ');
   background-size: cover;
+}
+main{
+  background-color: rgba(255, 255, 255, 0.7); width: 500px;
 }
